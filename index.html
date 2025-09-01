@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pupuk Organik Padat Supersonik</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/iconP.png">
+    <!-- Alternatif jika punya format ICO -->
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Poppins for body, Playfair Display for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        /* Custom styles to apply the fonts */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        /* Style for the hero section background image with a green overlay */
+        .hero-bg {
+            /* ubah ke nama gambar */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/bg1.jpg'); 
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>   
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header / Navbar -->
+    <header id="navbar" class="bg-transparent fixed top-0 left-0 w-full z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#hero" class="text-2xl font-bold text-white">SUPERSONIK</a>
+            <nav>
+                <a href="#kontak" class="text-white hover:text-green-200 transition-colors duration-300 font-semibold">Hubungi Kami</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1. Hero Section -->
+    <section id="hero" class="hero-bg h-screen flex items-center justify-center text-center text-white">
+        <div class="container mx-auto px-6">
+            <h1 class="text-5xl md:text-7xl font-bold mb-4 leading-tight">PUPUK ORGANIK PADAT SUPERSONIK</h1>
+            <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">Pupuk organik padat yang diformulasikan khusus untuk meningkatkan hasil panen dan menjaga kesehatan ekosistem tanah.</p>
+            <a href="#produk" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-transform duration-300 transform hover:scale-105 inline-block">
+                Lihat Produk &darr;
+            </a>
+        </div>
+    </section>
+
+    <main>
+        <!-- 2. Keunggulan Produk -->
+        <section id="keunggulan" class="py-20 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-12">Kenapa Memilih Pupuk Supersonik?</h2>
+                <div class="grid md:grid-cols-3 gap-12">
+                    <!-- Item 1: 100% Organik -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-green-500 text-white rounded-full p-6 mb-4">
+                            <i class="fas fa-leaf fa-3x"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">100% Organik Murni</h3>
+                        <p class="text-gray-600">Terbuat dari bahan-bahan alami pilihan yang diproses secara modern untuk menghasilkan nutrisi terbaik bagi tanaman.</p>
+                    </div>
+                    <!-- Item 2: Meningkatkan Hasil Panen -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-green-500 text-white rounded-full p-6 mb-4">
+                            <i class="fas fa-seedling fa-3x"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Tingkatkan Hasil Panen</h3>
+                        <p class="text-gray-600">Mempercepat pertumbuhan, memperkuat akar, dan meningkatkan kualitas buah, daun, serta bunga secara signifikan.</p>
+                    </div>
+                    <!-- Item 3: Menyehatkan Tanah -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-green-500 text-white rounded-full p-6 mb-4">
+                            <i class="fas fa-spa fa-3x"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Menyehatkan Tanah</h3>
+                        <p class="text-gray-600">Memperbaiki struktur tanah, meningkatkan kemampuan menyimpan air, dan mengembalikan kehidupan mikroorganisme tanah.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+        <!-- Kisah Pembuatan Pupuk -->
+        <section id="kisah" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <!-- Gambar di Kiri -->
+                    <div class="w-full md:w-4/12">
+                        <img src="assets/iconT.png"  class="rounded-lg shadow-xl w-full">
+                    </div>
+                    <!-- Teks di Kanan -->
+                    <div class="w-full md:w-7/12">
+                        <h2 class="text-4xl font-bold mb-4">Kisah di Balik Kesuburan</h2>
+                        <p class="text-gray-600 mb-4 leading-relaxed text-justify">
+                            Pupuk Supersonik lahir dari kepedulian mendalam terhadap kelestarian tanah pertanian di Cirebon. Berawal dari pengamatan akan penurunan kualitas tanah akibat penggunaan bahan kimia berlebih, kami berinisiatif untuk menciptakan solusi yang kembali ke alam.
+                        </p>
+                        <p class="text-gray-600 leading-relaxed text-justify">
+                            Dengan semangat memberdayakan petani lokal, kami mengolah bahan-bahan organik terbaik dari lingkungan sekitar. Setiap butir pupuk Supersonik adalah hasil dari proses komposting yang teliti dan fermentasi alami, memastikan nutrisi esensial tetap terjaga. Ini adalah wujud komitmen kami untuk menghadirkan produk yang tidak hanya menyuburkan tanaman, tetapi juga menyehatkan bumi pertiwi untuk generasi mendatang.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Informasi & Lokasi -->
+        <section id="info" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold mb-12 text-center">Informasi & Lokasi Kami</h2>
+                <div class="flex flex-col md:flex-row gap-12 items-center">
+                    <!-- Info Kiri -->
+                    <div class="w-full md:w-1/2">
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <i class="fas fa-map-marker-alt text-green-600 text-2xl mt-1 mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold text-xl">Alamat Produksi</h4>
+                                    <p class="text-gray-600">Desa Susukanlebak, Kecamatan Susukanlebak, Kabupaten Cirebon, Jawa Barat.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-clock text-green-600 text-2xl mt-1 mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold text-xl">Jam Operasional</h4>
+                                    <p class="text-gray-600">Senin - Sabtu: 08:00 - 16:00 WIB</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-box-open text-green-600 text-2xl mt-1 mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold text-xl">Ketersediaan Produk</h4>
+                                    <p class="text-gray-600">Tersedia dalam kemasan 15kg dan 20kg. Siap melayani pembelian eceran dan partai besar.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Peta Kanan -->
+                    <div class="w-full md:w-1/2 h-80 rounded-lg shadow-lg overflow-hidden">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d188.58256991426973!2d108.61437041421672!3d-6.866493864972742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sid!2sid!4v1756387094258!5m2!1sid!2sid"
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Produk Kami Section -->
+        <section id="produk" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-2">Produk Unggulan Kami</h2>
+            <p class="text-gray-600 mb-12 max-w-2xl mx-auto">
+            Pilihan kemasan pupuk SUPESONIK untuk berbagai kebutuhan pertanian Anda
+            </p>
+
+            <!-- Container for the cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            
+            <!-- Product Card 1: 5kg -->
+            <div class="relative bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col transform hover:scale-105 hover:shadow-xl transition duration-300">
+                <!-- Badge -->
+                <span class="absolute top-2 left-2 bg-green-600 text-white text-xs px-3 py-1 rounded-full shadow-md">Hemat</span>
+                <img src="assets/pack.png" class="w-full h-64 object-cover">
+                <div class="p-6 flex flex-col flex-grow text-left">
+                <h3 class="text-2xl font-bold mb-2">Kemasan 5 kg</h3>
+                <p class="text-gray-600 mb-4 flex-grow text-left">
+                    Cocok untuk kebutuhan rumah tangga atau lahan percobaan kecil. Hemat, praktis, dan pas untuk mencoba kualitas pupuk kami.
+                </p>
+                <div class="mt-auto">
+                    <span class="block font-extrabold text-2xl text-green-700 mb-3">Rp 10.000</span>
+                    <a href="https://wa.me/6282126398114?text=Halo,%20saya%20tertarik%20dengan%20Pupuk%20Supersonik%20kemasan%205kg." 
+                    target="_blank" 
+                    class="w-full text-center bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-full transition duration-300 flex items-center justify-center hover:shadow-lg">
+                    <i class="fab fa-whatsapp mr-2"></i> Pesan
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Product Card 2: 10kg -->
+            <div class="relative bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col transform hover:scale-105 hover:shadow-xl transition duration-300">
+                <!-- Badge -->
+                <span class="absolute top-2 left-2 bg-yellow-500 text-white text-xs px-3 py-1 rounded-full shadow-md">Favorit</span>
+                <img src="assets/pack.png" class="w-full h-64 object-cover">
+                <div class="p-6 flex flex-col flex-grow text-left">
+                <h3 class="text-2xl font-bold mb-2">Kemasan 10 kg</h3>
+                <p class="text-gray-600 mb-4 flex-grow text-left">
+                    Pilihan tepat bagi petani pemula maupun hobi berkebun. Ukuran pas untuk perawatan tanaman tanpa takut kekurangan.
+                </p>
+                <div class="mt-auto">
+                    <span class="block font-extrabold text-2xl text-green-700 mb-3">Rp 20.000</span>
+                    <a href="https://wa.me/6282126398114?text=Halo,%20saya%20tertarik%20dengan%20Pupuk%20Supersonik%20kemasan%2010kg." 
+                    target="_blank" 
+                    class="w-full text-center bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-full transition duration-300 flex items-center justify-center hover:shadow-lg">
+                    <i class="fab fa-whatsapp mr-2"></i> Pesan
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Product Card 3: 15kg -->
+            <div class="relative bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col transform hover:scale-105 hover:shadow-xl transition duration-300">
+                <!-- Badge -->
+                <span class="absolute top-2 left-2 bg-blue-500 text-white text-xs px-3 py-1 rounded-full shadow-md">Starter Pack</span>
+                <img src="assets/pack.png" class="w-full h-64 object-cover">
+                <div class="p-6 flex flex-col flex-grow text-left">
+                <h3 class="text-2xl font-bold mb-2">Kemasan 15 kg</h3>
+                <p class="text-gray-600 mb-4 flex-grow text-left">
+                    Ideal untuk petani skala kecil atau sebagai starter pack untuk mencoba keunggulan pupuk kami.
+                </p>
+                <div class="mt-auto">
+                    <span class="block font-extrabold text-2xl text-green-700 mb-3">Rp 30.000</span>
+                    <a href="https://wa.me/6282126398114?text=Halo,%20saya%20tertarik%20dengan%20Pupuk%20Supersonik%20kemasan%2015kg." 
+                    target="_blank" 
+                    class="w-full text-center bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-full transition duration-300 flex items-center justify-center hover:shadow-lg">
+                    <i class="fab fa-whatsapp mr-2"></i> Pesan
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <!-- Product Card 4: 20kg -->
+            <div class="relative bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col transform hover:scale-105 hover:shadow-xl transition duration-300">
+                <!-- Badge -->
+                <span class="absolute top-2 left-2 bg-red-600 text-white text-xs px-3 py-1 rounded-full shadow-md">Best Seller</span>
+                <img src="assets/pack.png" class="w-full h-64 object-cover">
+                <div class="p-6 flex flex-col flex-grow text-left">
+                <h3 class="text-2xl font-bold mb-2">Kemasan 20 kg</h3>
+                <p class="text-gray-600 mb-4 flex-grow text-left">
+                    Pilihan paling populer untuk lahan yang lebih luas. Efisiensi maksimal untuk hasil panen optimal.
+                </p>
+                <div class="mt-auto">
+                    <span class="block font-extrabold text-2xl text-green-700 mb-3">Rp 40.000</span>
+                    <a href="https://wa.me/6282126398114?text=Halo,%20saya%20tertarik%20dengan%20Pupuk%20Supersonik%20kemasan%2020kg." 
+                    target="_blank" 
+                    class="w-full text-center bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-full transition duration-300 flex items-center justify-center hover:shadow-lg">
+                    <i class="fab fa-whatsapp mr-2"></i> Pesan
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </section>
+
+
+        <!-- 5. Kontak dan Media Sosial -->
+        <section id="kontak" class="py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-4">Siap Membuat Tanaman Anda Tumbuh Subur?</h2>
+                <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Hubungi kami sekarang untuk konsultasi, informasi harga, dan pemesanan. Mari wujudkan panen melimpah bersama Supersonik!</p>
+                <a href="https://wa.me/6282126398114?text=Halo,%20saya%20tertarik%20dengan%20Pupuk%20Organik%20Supersonik." target="_blank" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-transform duration-300 transform hover:scale-105 inline-block mb-8">
+                    <i class="fab fa-whatsapp mr-2"></i> Hubungi via WhatsApp
+                </a>
+                <div class="flex justify-center space-x-6">
+                    <a href="#" class="text-gray-500 hover:text-green-600 transition-colors duration-300"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-green-600 transition-colors duration-300"><i class="fab fa-facebook-square fa-2x"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-green-600 transition-colors duration-300"><i class="fab fa-tiktok fa-2x"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 6. Footer -->
+    <footer class="bg-gray-900 text-white text-center py-6">
+        <div class="container mx-auto px-6 text-center">
+                <p class="text-lg">🌱 Mari bersama wujudkan pertanian sehat dan ramah lingkungan dengan Pupuk Supersonik.</p>
+                <p class="mt-2 text-sm">Pupuk Organik Padat Supersonik - Susukan Lebak</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript to make the navbar solid on scroll
+        const navbar = document.getElementById('navbar');
+        window.onscroll = function () {
+            if (window.pageYOffset > 50) {
+                navbar.classList.remove('bg-transparent');
+                // Change background to dark green on scroll
+                navbar.classList.add('bg-green-800', 'shadow-lg');
+            } else {
+                navbar.classList.add('bg-transparent');
+                // Revert back to transparent
+                navbar.classList.remove('bg-green-800', 'shadow-lg');
+            }
+        };
+    </script>
+
+</body>
+</html>
